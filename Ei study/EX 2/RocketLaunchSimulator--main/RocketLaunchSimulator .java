@@ -113,7 +113,7 @@ public class RocketLaunchSimulator {
         do{
             
             System.out.print("Enter command: ");
-            input = scanner.nextLine();
+            input = scanner.next();
             String[] parts = input.split(" ");
             String command = parts[0];
             
